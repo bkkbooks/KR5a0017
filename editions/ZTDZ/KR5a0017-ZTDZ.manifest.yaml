@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0017/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0017/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上說朝天謝雷真經
+  date: '2015-08-28 23:34:59.775059'
+  source:
+    repository: kanripo
+    path: KR5a0017
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0017_000-ZTDZ.yaml, hash: 'sha256:211bbaf7c85c968234904caa108d0f01941b78aed7e8f5572c1db23ab48341d5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0017_000-ZTDZ.markers.yaml, hash: 'sha256:b3d0b3e036fce454cc608bc576cd3d389d8f1232ae927d331c104b7ee616b49f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0017_SJB_000-010762a
+    span:
+    - body
+    - 0
+    - 2310
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:91c6c7638ec710834297ad684c60e9c908f47c44c53121ae80b7e1a94bb46fcc
